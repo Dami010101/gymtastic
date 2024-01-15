@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.header{
+    padding: 20px;
+}
+.footer{
+    padding: 20px;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 30px;
+    padding-right: 35px;
+}
+.containz{
+    background-color:#5d656f49; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    width: 100%;
+     position: relative; 
+    /* padding: 0 20px; */
+}
+a{
+    color: white;
+}
+h1{
+    color: white;
+}
+span{
+    color: #ED563B;
+}
+.logo{
+    padding-left: 35px;
+
+}
+#signup{
+    background-color: #ED563B;
+    padding: 0.8rem;
+}
+a:hover{
+    color: #ED563B;
+}
+h2{
+    font-size: 20px;
+    color: white;
+}
+h3{
+    font-size: 70px;
+}
+.btn1{
+    padding: 20px;
+    background-color: #ED563B;
+    border: none;
+}
+.header{
+    background-color: rgba(0, 128, 0, 0.347);
+    text-align: center;
+}
+.content{
+    color: white;
+    text-align: center;
+    padding-top: 90px;
+}
+.content2{
+    text-align: center;
+}
+.river{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.cp{
+    font-size: 25px;
+    font-weight: bold;
+}
+.txtin{
+    color: gray;
+}
+.disp{
+    display: flex;
+    padding: 1rem 1rem;
+}
+.txtdisp{
+    padding-left: 1.5rem;
+}
+.txtin{
+    padding: 1.0rem 0 ;
+}
+.disc1{
+    color: #ED563B;
+}
+.section2_1{
+    display: flex;
+    justify-content: space-around;
+}
+.section3{
+    background-image: url(./asset/WhatsApp\ Image\ 2024-01-03\ at\ 21.06.54_de120957.jpg);
+    width: 100%;
+    height: 50vh;
+    
+}
+.dtet{
+    font-size: 30px;
+    color: white;
+    padding-top: 1.2rem; 
+
+}
+.dtes{
+    color: white;
+    padding: 1.5rem 0 ;
+}
+.sec3_1{
+    text-align: center;
+    padding-top: 2rem;
+}
+.hao{
+    color: grey;
+}
+.sec4_1{
+    text-align: center;
+    padding-top: 1.8rem;
+}
+.asli{
+    padding: 1rem 0 1rem;
+}
+h6{
+    color: black;
+    font-size: 30px;
+}
+.sec4_2{
+    display: flex;
+    justify-content: space-around;
+
+}
+.sec4_1{
+    text-align: center;
+    padding-top: 2rem;
+}
+.ftc{
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.1);
+    width: 15rem;
+    padding: 1rem;
+    align-items: center;
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.vas{
+    background-color: #ED563B;
+    width: 15rem;
+    padding: 1rem;
+    align-items: center;
+    display: flex;
+    color: white;
+    border-radius: 5px;
+}
+.fir{
+    font-size: 35px;
+}
+.vs{
+    padding: 0.9rem;
+    background-color: #ED563B;
+    color: white;
+    border: none;
+}
+.phao{
+    color: grey;
+    padding: 0.8rem 0 ;
+
+}
+h5{
+    padding-left: 1rem;
+    font-size: 1.2rem;
+
+}
+.section4{
+    padding-top: 3rem;
+}
+.section5_1{
+    text-align: center;
+    padding: 80px;
+}
+.cs{
+    font-size: 1.5rem;
+    color: white;   
+}
+.section5{
+    background-image: url(./asset/WhatsApp\ Image\ 2024-01-03\ at\ 21.06.54_de120957.jpg);
+    width: 100%;
+    height: 170vh;
+}
+.ps{
+    color: white;
+}
+.wek{
+    display: inline-flex;
+    color: white;
+}
+table,tr,td{
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 2.5rem;
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+.section5{
+    margin-top: 4rem;
+}
+.bs{
+    color: gray;
+}
+.section6_1{
+    text-align: center;
+    padding: 4rem;
+}
+.il{
+    display: flex;
+    justify-content: space-between;
+}
+.smf{
+    width: 40%;
+
+}
+.smal{
+    color: red;
+    font-size: medium;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+.bdb{
+    font-size: large;
+    font-weight: bold;
+}
+.thao{
+    color: gray;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+
+}
+.ft{
+    padding: 1rem;
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+.bs{
+    color: gray;
+}
+.section6_2{
+    display: flex;
+    justify-content: space-around;
+}
+.ti{
+    background-image: url(./asset/claasset_files/training-image-01.jpg); 
+    height: 90vh;  
+    padding: 0rem 4rem;
+    padding-top: 7rem;
+
+} 
+
+.fti{
+    background-color: white;
+    border-radius: 2px;
+    padding-left: 1.5rem;
+    width: 100%;
+    height: 80vh;
+    padding-top: 2rem;
+}
+#fortex{
+    padding: 0.7rem;
+    width: 38%;
+    justify-content: space-between;
+} 
+
+#sportex{
+    padding: 0.7rem;
+    width: 83%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+} 
+
+#testrox{
+    width: 83%;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+} 
+
+#subform{
+    padding: 1.1rem;
+    width: 33%;
+    background-color: #ED563B;
+    color: white;
+    border: none;
+    text-align: left;
+
+}
+
+.section7_1{
+    display: flex;
+    justify-content: space-between;
+} 
+.footer{
+    text-align: center;
+    }
+.section7{
+    margin-top: 3rem;
+}
+
+
+
+
+@media screen and (max-width:900px){
+    .navbar ul{
+        display: none;
+    }
+    .section2_1{
+        display: block;
+        margin: auto;
+    }
+    .section3{
+        height: 30vh;
+        
+    }
+    .sec4_2{
+        display: block;
+        
+    }
+    .fletc{
+        margin-left: 15rem;
+    }
+    .ftc, .vas{
+        width: 28rem;
+    }
+    h5{
+        font-size: 2rem;
+    }
+
+
+}

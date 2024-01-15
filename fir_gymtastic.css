@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+video{
+    width: 100%;
+    filter: brightness(0.3);
+    /* height: 100vh;  */
+}
+.vid{
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+}
+.navbar ul{
+    display: flex;
+    gap: 30px;
+    padding-right: 35px;
+}
+.containz{
+    background-color:#5d656f49; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    width: 100%;
+    position: relative;
+    /* padding: 0 20px; */
+}
+a{
+    color: white;
+}
+h1{
+    color: white;
+}
+span{
+    color: #ED563B;
+}
+.logo{
+    padding-left: 35px;
+}
+#signup{
+    background-color: #ED563B;
+    padding: 12px;
+}
+a:hover{
+    color: #ED563B;
+}
+.content{
+    position: relative;
+    color: white;
+    text-align: center;
+    padding-top: 90px;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 70px;
+}
+.btn1{
+    padding: 20px;
+    background-color: #ED563B;
+    border: none;
+}
+.section2{
+    position: relative;
+    margin-top: 400px;
+    
+}
+.river{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.content2{
+    text-align: center;
+}
+.section2_1{
+    display: flex;
+    justify-content: space-around;
+}
+.disc1{
+    color: #ED563B;
+}
+h4{
+    font-weight: bold;
+    font-size: 20px;
+}
+.disp{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.txtdisp{
+    padding-left: 20px;
+}
+.h4[p]{
+    color: grey;
+}
+.section3{
+    background-image: url(./asset/WhatsApp\ Image\ 2024-01-03\ at\ 21.06.54_de120957.jpg);
+    width: 100%;
+    height: 80vh;
+    
+}
+.txtin{
+    padding: 10px 0 ;
+}
+.dtet{
+    font-size: 30px;
+    color: white;
+    /* padding: 40px 0 ; */
+    padding-top: 40px; 
+
+}
+.dtes{
+    color: white;
+    padding: 20px 0 ;
+}
+.sec3_1{
+    text-align: center;
+    padding-top: 60px;
+}
+h6{
+    color: black;
+    font-size: 30px;
+}
+.hao{
+    color: grey;
+}
+.sec4_1{
+    text-align: center;
+    padding-top: 40px;
+}
+.asli{
+    padding: 20px 0 20px;
+}
+.btn4{
+    display: flex;
+    border: none;
+    width: 300px;
+    background-color: none;
+}
+.ftc{
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    margin: 30px 0;
+}
+h5{
+    padding-left: 20px;
+    font-size: 20px;
+
+}
+.vas{
+    background-color: #ED563B;
+    width: 300px;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    /* margin: 5px; */
+    color: white;
+    border-radius: 5px;
+}
+h5:hover{
+    color: #ED563B;
+}
+.sec4_2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+
+}
+.fir{
+    margin-top: 30px;
+    font-size: 35px;
+}
+.vs{
+    padding: 15px;
+    background-color: #ED563B;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+.phao{
+    color: grey;
+    padding: 10px 0 ;
+
+}
+.section5_1{
+    text-align: center;
+    padding: 80px;
+}
+.cs{
+    font-size: 20px;
+    color: white;   
+}
+.section5{
+    background-image: url(./asset/WhatsApp\ Image\ 2024-01-03\ at\ 21.06.54_de120957.jpg);
+    width: 100%;
+    height: 170vh;
+    margin-top: 30px;
+}
+.ps{
+    color: white;
+}
+.wek{
+    display: inline-flex;
+    color: white;
+    margin-top: 20px;
+}
+table,tr,td{
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 40px;
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+.section6_1{
+    text-align: center;
+    padding: 80px;
+}
+.il{
+    display: flex;
+    justify-content: space-between;
+}
+.smf{
+    width: 40%;
+    margin: 20px 0;
+
+}
+.smal{
+    color: red;
+    font-size: medium;
+    margin: 20px 0;
+
+}
+.bdb{
+    font-size: large;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.thao{
+    color: gray;
+}
+.ft{
+    padding: 20px;
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+.bs{
+    color: gray;
+}
+.section6_2{
+    display: flex;
+    justify-content: space-around;
+}
+ .ti{
+    background-image: url(./asset/claasset_files/training-image-01.jpg);
+    width:45%;
+    height: 100vh;  
+    padding: 10px 50px;
+
+} 
+/* .ti{
+    height: 100vh;
+     background-image: url(./asset/claasset_files/training-image-01.jpg);
+   
+} */
+.fti{
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 2px;
+    position: relative;
+    margin-left: 20px;
+    padding-left: 15px;
+    width: 100%;
+}
+#fortex{
+    padding: 7px;
+    margin-top: 30px;
+    width: 38%;
+} 
+/* #fortex{
+    padding: 7px;
+    margin-top: 30px;
+} */
+#sportex{
+    padding: 7px;
+    width: 70%;
+    margin: 30px 0;
+} 
+/* #sportex{
+    padding: 7px;
+    width: 350px;
+    margin: 30px 0;
+} */
+#testrox{
+    width: 70%;
+    padding: 7px;
+} 
+/* #testrox{
+    padding: 7px;
+} */
+#subform{
+    padding: 15px;
+    width: 50%;
+    margin: 30px 0;
+    background-color: #ED563B;
+    color: white;
+    border: none;
+    text-align: left;
+
+}
+.section7{
+    margin-top: 80px;
+}
+.section7_1{
+    display: flex;
+    justify-content: space-between;
+} 
+/* .section7_1{
+    display: grid;
+    grid-template-columns:auto auto;
+} */
+
+.footer{
+margin: 40px;
+text-align: center;
+}
+
+@media screen and (max-width:700px){
+    .navbar ul{
+        display: none;
+    }
+    video{
+        width: 100%;
+        filter: brightness(0.3);
+        /* height: 100vh;  */
+    }
+    .vid{
+        width: 100%;
+        height: 50vh;
+        position: absolute;
+    }
+    h2{
+        font-size: 10px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    .section2{
+        position: relative;
+        margin-top: 150px;
+        
+    }
+    .content{
+        position: relative;
+        color: white;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .txtin{
+        padding: 10px 0 ;
+        font-size: smaller;
+    }
+    .section2_1{
+        display: block;
+        justify-content: space-around;
+    }
+    .section3{
+        background-image: url(./asset/WhatsApp\ Image\ 2024-01-03\ at\ 21.06.54_de120957.jpg);
+        width: 100%;
+        height: 100vh;
+        
+    }
+    .sec4_2{
+        display: block;
+        justify-content: space-around;
+        margin-top: 60px;
+    
+    }
+    .vas{
+        background-color: #ED563B;
+        width: 300px;
+        padding: 20px;
+        align-items: center;
+        display: flex;
+        /* margin: 5px; */
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    table,tr,td{
+        padding: 2px;
+        height: 20vh;
+    }
+    .section5{
+        height: 200vh;
+    }
+    .section6_2{
+        display: block;
+    }
+    .section7_1{
+        display: block;
+        width: 100%;
+    }
+    .fti{
+        background-color: white;
+        border-radius: 2px;
+        position: relative;
+        padding-left: 30px;
+        margin: none;
+    }
+    .ti{
+        background-image: url(./asset/claasset_files/training-image-01.jpg);
+        width:35%;
+        height: 100vh;  
+        /* position: absolute;   */
+        padding: 10px 80px;
+        /* justify-content: center; */
+    
+    }
+    
+    
+    
+    
+    
+}

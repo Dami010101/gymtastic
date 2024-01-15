@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./grid.css">
+</head>
+<style>
+    .griditem{
+        border: none;
+        padding: 20px;
+    }
+    .griditem1{
+        border: none;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .grid{
+        display: grid;
+        grid-template-rows: 100px auto 50px;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+</style>
+<body>
+    <div class="grid">
+        <div class="griditem">header</div>
+        <div class="griditem1">
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia iste doloribus sapiente nostrum nulla officiis assumenda, quidem qui unde praesentium autem, cum deserunt! Distinctio eveniet error at deleniti, ut nobis!</div>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia iste doloribus sapiente nostrum nulla officiis assumenda, quidem qui unde praesentium autem, cum deserunt! Distinctio eveniet error at deleniti, ut nobis!</div>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia iste doloribus sapiente nostrum nulla officiis assumenda, quidem qui unde praesentium autem, cum deserunt! Distinctio eveniet error at deleniti, ut nobis!</div>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia iste doloribus sapiente nostrum nulla officiis assumenda, quidem qui unde praesentium autem, cum deserunt! Distinctio eveniet error at deleniti, ut nobis!</div>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia iste doloribus sapiente nostrum nulla officiis assumenda, quidem qui unde praesentium autem, cum deserunt! Distinctio eveniet error at deleniti, ut nobis!</div>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia iste doloribus sapiente nostrum nulla officiis assumenda, quidem qui unde praesentium autem, cum deserunt! Distinctio eveniet error at deleniti, ut nobis!</div>
+            <!-- <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia iste doloribus sapiente nostrum nulla officiis assumenda, quidem qui unde praesentium autem, cum deserunt! Distinctio eveniet error at deleniti, ut nobis!</div> -->
+            <!-- <div>column1</div> -->
+        </div>
+        <div class="griditem">footer</div>
+    </div>
+</body>
+</html>
