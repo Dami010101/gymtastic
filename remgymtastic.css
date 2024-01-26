@@ -217,7 +217,7 @@ table,tr,td{
 }
 .section6_1{
     text-align: center;
-    padding: 4rem;
+    padding: 20px;
 }
 .il{
     display: flex;
@@ -230,8 +230,8 @@ table,tr,td{
 .smal{
     color: red;
     font-size: medium;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
 }
 .bdb{
@@ -240,14 +240,14 @@ table,tr,td{
 }
 .thao{
     color: gray;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
+    padding-bottom: 10px;
+    padding-top: 10px;
 
 }
 .ft{
-    padding: 1rem;
+    padding: 10px;
     box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.1);
-}
+} 
 .bs{
     color: gray;
 }
@@ -331,11 +331,8 @@ table,tr,td{
         display: block;
         text-align: center;
     }
-    .fletc{
-        margin: auto;
-    }
     .ftc, .vas{
-        width: 80%;
+        width: 100%;
     }
     h5{
         font-size: 2rem;
@@ -343,7 +340,6 @@ table,tr,td{
     .section6_2{
         display: block;
         margin: auto;
-        width: 100%;
     }
     .section7_1{
         display: block;
@@ -354,17 +350,13 @@ table,tr,td{
     .section5{
         height: 1000px;
     }
-    .stn{
+    .ft{
         width: 100%;
     }
-    .mapcont{
-        margin-bottom: 30px;
+    .dgd{
+        width: 100%;
     }
-    .txtin, .section2_1, .dtes, .btn1, .hao, .phao, .ps, .tab, .vs, .smal, .bdb, :placeholder-shown, .tablesc, .bs, .section6_2, .section7{
-        font-size: 1.8rem;
-    }
-    .wek{
-        font-size: 1.2rem;
-    }
+
+
 
 }
